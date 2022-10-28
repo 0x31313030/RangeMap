@@ -7,7 +7,7 @@ A 'RangeMap<K,V>' is a container/'data structure' where a value of type 'V' can 
 in a memory and time efficient manner, by using binary trees.
 So for example, in the case of 'RangeMap<int, char>' the range '10' to '20' can be assigned the value 'a' without having to do 10 actual
 assignments. Furthermore, a maximum of two elements are added to the container for each new range assignment.
-RangeMap also guarantees that stored consecutive map entries do not contain the same value, making it canocial.
+RangeMap also guarantees that stored consecutive map entries do not contain the same value, making it canonical.
 
 
 
